@@ -1,0 +1,175 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav .brand-logo {
+  position: absolute;
+  color: orangered;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  font-weight: 900;
+  font-family: poppins;
+}
+
+
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: inline;
+  font-size: 24px;
+  height: 56px;
+  line-height: 56px;
+
+}
+
+#nottybar {
+  padding: 10px;
+
+}
+
+nav {
+  color: rgb(31, 31, 31);
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+
+.dropdown-trigger {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.btn-floating {
+  display: inline-block;
+  color: rgb(31, 31, 31);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background-color: orangered;
+  border-radius: 50%;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.btn-floating:hover {
+  background-color: green;
+}
+
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 5px;
+  width: 700px;
+}
+
+.card .card-action:last-child {
+  border-radius: 5px
+}
+
+.card-title {
+  color: rgb(0, 195, 255);
+}
+
+.postcol {
+  align-content: center;
+}
+
+#postbutton {
+  float: right;
+  background-color: orangered;
+  color: rgb(0, 0, 0);
+  font-weight: 550;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 100px;
+  border: none;
+  padding: 10px;
+}
+
+.postbox {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  width: 700px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textareabox {
+  border-color: white;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.userpost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comingsoon {
+  font-size: 80px;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: poppins;
+  color: orangered;
+  font-weight: 500;
+}
